@@ -3,4 +3,20 @@
     border: 1px solid pink;
 
     height: 350px;
+    display: flex;
+    align-items: center;
+}
+.Box {
+    border: 1px solid black;
+    height: 350px;
+    width: 350px;
+    margin: 30px;
+    border-radius: 4px;
+
+
+}
+
+.logo {
+ height: 50px;
+ width: 50px;
 }
