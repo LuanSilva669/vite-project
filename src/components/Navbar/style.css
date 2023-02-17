@@ -1,6 +1,82 @@
 .navbar {
-    background: pink;
-    border: 1px solid red;
+ /* Auto layout */
 
-    height: 86px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 24px 50px;
+        gap: 50px;
+        height: 100px;
+/* Background padrão (Bota gotica) */
+        background: black;
+/* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+  }
+  
+  .navbar-brand {
+   /* Logo */
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-bottom: 34px;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+  }
+  
+  .navbar-menu {
+  /* Auto layout */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        width: 1000px;
+        height: 23px;
+        background: black;
+  }
+  
+  .navbar-item {
+          /* auto layout */
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px;
+          gap: 32px;
+          width: 200px;
+          height: 40px;
+          flex: none;
+          order: 1;
+          flex-grow: 1;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding: 0px;
+
+/*inside auto layout */
+          width: 120px;
+          height: 23px;
+
+  }
+.button {
+/* Auto layout */
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 8px;
+          width: 160px;
+          height: 39px;
+/* Inside auto layout */
+          flex: none;
+          order: 2;
+          flex-grow: 0;
+          background: black;
+          
 }

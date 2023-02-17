@@ -2,19 +2,21 @@ import './style.css'
 
 function Banner() {
     return (
-        <div className="banner">
-            <img className='logo' src="https://cf.shopee.com.br/file/5f5874e31a74551ea8c503580f58ba44" alt="" />
-            <div className="Box">
-                Eu sou um banner 2
-            </div>
-            <div className="Box">
-                Eu sou um banner 2
-            </div>
-            <div className="Box">
-                Eu sou um banner 2
-            </div>
-          
-        </div>
+         <div className="banner" >
+           <img class="bota" src="/pic2.png" alt="Bates-in-Black" title="Bates-in-Black" 
+            />
+           <div class="content">
+            <h2>
+              Draculaura
+            </h2>
+            <h4>
+              DRACULAURA
+            </h4>
+
+           </div>
+         </div>
+        
+         
     )
 }
 
