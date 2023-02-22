@@ -77,6 +77,6 @@
           flex: none;
           order: 2;
           flex-grow: 0;
-          background: black;
-          
+          background: rgb(36, 35, 35);
+          border-radius: 8px;
 }
