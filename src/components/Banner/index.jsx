@@ -34,30 +34,32 @@ function Carrossel() {
       speed={500}
       slidesToShow={1}
       slidesToScroll={1}
-      autoplay={true}
+      autoplay={false}
       autoplaySpeed={3000}
     >
       {bannerInfo.map((banner) => (
         <div key={`id-${banner.id}`} className={`banner id-${banner.id}`}>
           <img className="bota" src={banner.image} />
-          <div className="content">
-            <div className="container1">
-              <h1 className={banner.title === "Luna Blue" ? "title2" : ""}>
+          <div className='title'>
+            
+          <h1 className={banner.title === "draculaura" ? "title" : ""}>
                 {banner.title}
               </h1>
             </div>
-            <div className="container3">
-              <h1 className={`text ${banner.title === "Luna Blue" ? "luna-blue-text" : ""}`}>
+            <div className='description'>
+            
+          <h2 className={banner.description === "draculaura" ? "description" : ""}>
                 {banner.description}
-              </h1>
+              </h2>
             </div>
+            
             <div className="botao">
               <button className="buttonn" href="/Entre em contato">
                 {banner.button}
               </button>
             </div>
           </div>
-        </div>
+    
       ))}
     </Slider>
   )

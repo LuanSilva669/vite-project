@@ -26,7 +26,7 @@ function Navbar() {
       <div className="navbar-brand">
         <img
           src="/logo.png"
-          height="150px"
+          height="100px"
           alt="My Logo"
         />
       </div>

@@ -1,65 +1,94 @@
-.banner {
+/* Banner id1 */
+
+.banner.id-1 {
     gap: 0px;
     margin-left: 0px;
-    background: linear-gradient(to bottom, #1b1919, #4a038d);
+    background: linear-gradient(to bottom, #1b1919, #39014B);
+    flex-direction: column;
+height: 600px;
+margin-top: 0px;
+display: flex;
+    
+}
+.banner.id-1 img {
+    position: relative;
+    left: -120px; 
+    
+}
+
+.banner.id-1 div {
+    font-family: 'berkahi blackletter';
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: -350px;
+    margin-bottom: 30px;
+    color: red;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.banner.id-1 h2 {
+    font-family: cinzel;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 200px;
+    margin-right: 50px;
+}    
+*/
+.banner.id-1 button{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    width: 160px;
+    height: 39px;
+    background-color: #9F87FF;
+    border: #9F87FF;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-weight: 900;
+    color: white;
+    margin-left: 30px;
+    margin-top: 00px
+    
+
+}
+
+/* banner id 2 */
+
+
+.banner.id-2 {
+    gap: 0px;
+    margin-left: 0px;
+    background: linear-gradient(to bottom, #1b1919, #39014B);
+    flex-direction: flex;
+    margin-top: 0px;
+    height: 500px;
+    justify-content: flex-start;
+}
+.banner.id-2 div {
+    font-family: 'berkahi blackletter';
+    font-size: 50px;
+    margin-left: 550px;
+    margin-top: -400px;
+    margin-bottom: 100px;
+    color: white;
+}
+/* Banner id3 */
+.banner.id-3 {
+    gap: 0px;
+    margin-left: 0px;
+    background: linear-gradient(to bottom, #1b1919, #39014B);
     flex-direction: flex;
     margin-top: 0px;
     height: 500px;
     justify-content: flex-start;
 }
 
-.banner.id-1 {
-    /* background: red; */
-}
-
-.banner.id-1 img {
-    position: relative;
-    left: -350px;
-}
-
-.banner.id-2 {
-    /* background: green; */
-}
-
-.banner.id-3 {
-    /* background: yellow; */
-}
-
-.bota {
-    margin-top: 28px;
-    width: 800px;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-}
-
-.content {
-    font-family: 'Berkahi Blackletter';
-    font-size: 50px;
-    margin-left: 650px;
-    margin-top: -400px;
-    margin-bottom: 50px;
-    color: white;
-}
-
-.title2 {
-    font-family: 'Berkahi Blackletter';
-    font-size: 100px;
-    margin-left: 100px;
-    margin-top: 76px;
-    color: white;
-}
-
-.text {
-    font-family: cinzel;
-    color: white;
-    font-size: 25px;
-    margin-bottom: 10;
-    margin-top: -40px;
-    margin-right: 50px;
-}
-
-.buttonn {
+.banner.id-2 button{
     display: flex;
     align-items: center;
     padding: 20px;
@@ -73,6 +102,47 @@
     font-weight: 100;
     font-weight: 900;
     color: white;
-    margin-left: 400px;
-    margin-top: -10px;
+    margin-left: 410px;
+    margin-top: -10Px;
 }
+
+
+.banner.id-2 img {
+    position: relative;
+    left: -120px;
+    margin-top: -10px;
+    
+}
+.banner.id-3 img {
+    position: relative;
+    left: -120px;
+    margin-top: 10px;
+    
+}
+
+.bota {
+    margin-top: 28px;
+    width: 800px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+.title2 {
+    font-family: 'Berkahi Blackletter';
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 76px;
+    color: white;
+}
+/*
+.text {
+    font-family: cinzel;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10;
+    margin-top: -40px;
+    margin-right: 50px;
+}
+*/
