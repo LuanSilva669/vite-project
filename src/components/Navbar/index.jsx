@@ -25,7 +25,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-brand">
         <img
-          src="/logo.webp"
+          src="/logo.png"
           height="150px"
           alt="My Logo"
         />
