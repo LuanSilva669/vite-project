@@ -39,27 +39,24 @@ function Carrossel() {
     >
       {bannerInfo.map((banner) => (
         <div key={`id-${banner.id}`} className={`banner id-${banner.id}`}>
-          <img className="bota" src={banner.image} />
-          <div className='title'>
-            
-          <h1 className={banner.title === "draculaura" ? "title" : ""}>
-                {banner.title}
-              </h1>
-            </div>
-            <div className='description'>
-            
-          <h2 className={banner.description === "draculaura" ? "description" : ""}>
-                {banner.description}
-              </h2>
-            </div>
-            
-            <div className="botao">
-              <button className="buttonn" href="/Entre em contato">
-                {banner.button}
-              </button>
-            </div>
+          {/* imagem da bota */}
+          <img className="boot" src={banner.image} />
+          {/* div para agrupar todas as informação */}
+          <div className="information">
+            {/* titulo */}
+            <h1 className="title">
+              {banner.title}
+            </h1>
+            {/* descriçãp */}
+            <h2 className="description">
+              {banner.description}
+            </h2>
+            {/* botão de ação */}
+            <button className="button" href="/Entre em contato">
+              {banner.button}
+            </button>
           </div>
-    
+        </div>
       ))}
     </Slider>
   )
