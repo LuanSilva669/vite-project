@@ -13,7 +13,7 @@ const bannerInfo = [
   {
     id: 2,
     image: "/pic3.png",
-    title: "Luna Blue",
+    title: "Laguna Blue",
     description: "Cada passo é uma oportunidade para expressar sua autenticidade gótica",
     button: "COMPRE AGORA"
   },

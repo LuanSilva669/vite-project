@@ -1,10 +1,11 @@
 import React from 'react';
+import  './style.css';
 
 function Footer() {
 
     return (
-        <div>
-            Footer
+        <div className="footer">
+        <img className="contactos"src="footer.png" alt="rodape" />
         </div>
     )
 }
