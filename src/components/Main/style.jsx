@@ -6,7 +6,6 @@ export const Information = styled.div`
  align-items: center;
  margin-top: 16px;
  margin-bottom: 16px;
-
 `
 
 export const Title = styled.h1`
@@ -67,7 +66,39 @@ export const Container = styled.div`
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+    background-image: url("/public/pic4.png"), linear-gradient(to bottom, #000000, #000000);
     `
+    export const Container1 = styled.div`
+    background: #39014B;
+    height: 100vh;
+    display: flex;
+    flex: column;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1C1C1c, #1c1c1c);
+    `
+    export const Container2 = styled.div`
+    background: #39014B;
+    height: 100vh;
+    display: flex;
+    flex: column;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1C1C1c, #1C1C1c);
+    `
+    export const Container3 = styled.div`
+    background: #39014B;
+    height: 100vh;
+    display: flex;
+    flex: column;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1c1c1c, #1C1C1c);
+    `
+
     export const Title2 = styled.h1`
     font-family: Cattedrale-demo;
         color: white;

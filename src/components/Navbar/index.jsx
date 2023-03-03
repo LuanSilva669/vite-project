@@ -8,16 +8,12 @@ const navItems = [
   },
   {
     name: "SOBRE A MARCA",
-    href: "/sobre a marca"
+    href: "#Sobre-a-marca"  
   },
   {
     name: "SOBRE A COLEÇÃO",
-    href: "/sobre a colecao"
+    href: "#Sobre-a-colecao"
   },
-  // {
-  //   name: "SOBRE O LUAN",
-  //   href: "/luan"
-  // },
 ];
 
 function Navbar() {
@@ -38,15 +34,7 @@ function Navbar() {
             </a>
           )
         })}
-        {/* <a className="navbar-item" href="/Inicio" >
-          INICIO
-        </a>
-        <a className="navbar-item" href="/sobre a marca">
-          SOBRE A MARCA
-        </a>
-        <a className="navbar-item" >
-          SOBRE A COLEÇÃO
-        </a> */}
+        
       </div>
       <button className="button" href="/Entre em contato">
         ENTRE EM CONTATO

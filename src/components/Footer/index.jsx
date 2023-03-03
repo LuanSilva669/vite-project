@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <div className="footer">
-        <img className="contactos"src="footer.png" alt="rodape" />
+    <img className="contato" src="rodape.png" alt="contato" />
         </div>
     )
 }

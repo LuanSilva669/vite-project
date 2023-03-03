@@ -1,5 +1,5 @@
 import React from 'react';
-import { Column, Container, Information, Line, Image, Title, Description, Title2, Title3, Title4, Title5, Description1, Description2 } from './style';
+import { Column, Container, Container1, Container2, Container3, Information, Line, Image, Title, Description, Title2, Title3, Title4, Title5, Description1, Description2 } from './style';
 
 function Main() {
 
@@ -10,7 +10,7 @@ function Main() {
                 <Information>
                     <Image src="/logo.png" alt="logo" />
                     <Column>
-                        <Title>Sobre a marca</Title>
+                        <Title id='Sobre-a-marca'>Sobre a marca</Title>
                         <Description2>
                             Bats in Black é uma marca de moda alternativa que celebra a beleza sombria e misteriosa da noite. Com a imagem icônica do morcego como seu símbolo, traz um toque único e elegante onde cada peça é projetada com atenção aos detalhes e com um estilo distinto. Moda alternativa que voa alto entregando a beleza sombria das asasinhas de um morcego.
                         </Description2>
@@ -24,7 +24,7 @@ function Main() {
                 <Information>
                     <Image src="/pic1.png" alt="logo" />
                     <Column>
-                        <Title2>Sobre a linha monster Doll</Title2>
+                        <Title2 id='Sobre-a-colecao'>Sobre a linha monster Doll</Title2>
                         <Description>
                         A linha de botas é composta por três modelos, 
                         cada um inspirado em uma boneca diferente do "estilo 
@@ -36,12 +36,12 @@ function Main() {
                 <Line className="reverse" />
             </Container>
 
-            <Container>
+            <Container1>
                 <Line />
                 <Information>
                     <Image src="/pic2.png" alt="bota1" />
                     <Column>
-                        <Title3>Draculaura</Title3>
+                        <Title3 id='draculaura'>Draculaura</Title3>
                         <Description>
                         Esta bota tem um acabamento perfeito em 
                         couro ecológico, com asas de morcego em um tom Preto, O detalhe da 
@@ -50,14 +50,14 @@ function Main() {
                     </Column>
                 </Information>
                 <Line className="reverse" />
-            </Container>
+            </Container1>
 
-            <Container>
+            <Container2>
                 <Line />
                 <Information>
                     <Image src="/pic3.png" alt="bota2" />
                     <Column>
-                        <Title4>Laguna Blue</Title4>
+                        <Title4 id='laguna-blue'>Laguna Blue</Title4>
                         <Description1>
                         A bota tem um solado plataforma arredondado e robusto, que adiciona altura e estilo ao visual, as asas de morcego nas laterais 
                         da bota são o destaque do design e adicionam um toque misterioso e dramático.  
@@ -66,14 +66,14 @@ function Main() {
                     </Column>
                 </Information>
                 <Line className="reverse" />
-            </Container>
+            </Container2>
 
-            <Container>
+            <Container3>
                 <Line />
                 <Information>
                     <Image src="/pic3.png" alt="bota2" />
                     <Column>
-                        <Title5>Spectra</Title5>
+                        <Title5 id='spectra'>Spectra</Title5>
                         <Description>
                         A bota apresenta uma cor preta clássica com asas de morcego, 
                         que captura a essência fantasmagórica de toda bat garota. A sola da bota é antiderrapante, 
@@ -82,7 +82,7 @@ function Main() {
                     </Column>
                 </Information>
                 <Line className="reverse" />
-            </Container>
+            </Container3>
         </>
     )
 

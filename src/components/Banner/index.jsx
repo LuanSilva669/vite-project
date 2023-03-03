@@ -8,7 +8,8 @@ const bannerInfo = [
     image: "/pic2.png",
     title: "Draculaura",
     description: "EXIBA SUA ESSÊNCIA GÓTICA EM CADA PASSO.",
-    button: "COMPRE AGORA"
+    button: "COMPRE AGORA"  ,
+  
   },
   {
     id: 2,
@@ -35,7 +36,7 @@ function Carrossel() {
       slidesToShow={1}
       slidesToScroll={1}
       autoplay={false}
-      autoplaySpeed={3000}
+      autoplaySpeed={5000}
     >
       {bannerInfo.map((banner) => (
         <div key={`id-${banner.id}`} className={`banner id-${banner.id}`}>
@@ -52,7 +53,7 @@ function Carrossel() {
               {banner.description}
             </h2>
             {/* botão de ação */}
-            <button className="button" href="/Entre em contato">
+            <button className="button" href="#draculaura">
               {banner.button}
             </button>
           </div>
