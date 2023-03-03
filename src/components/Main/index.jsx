@@ -5,9 +5,11 @@ function Main() {
 
     return (
         <>
-            <Container>
+                    <Container>
+                        
                 <Line />
                 <Information>
+                    
                     <Image src="/logo.png" alt="logo" />
                     <Column>
                         <Title id='Sobre-a-marca'>Sobre a marca</Title>
