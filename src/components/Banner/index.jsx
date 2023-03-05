@@ -8,22 +8,21 @@ const bannerInfo = [
     image: "/pic2.png",
     title: "Draculaura",
     description: "EXIBA SUA ESSÊNCIA GÓTICA EM CADA PASSO.",
-    button: "COMPRE AGORA"  ,
-  
+    button: "COMPRE AGORA" ,
   },
   {
     id: 2,
     image: "/pic3.png",
     title: "Laguna Blue",
     description: "Cada passo é uma oportunidade para expressar sua autenticidade gótica",
-    button: "COMPRE AGORA"
+    button: "COMPRE AGORA",
   },
   {
     id: 3,
     image: "/picc4.png",
     title: "Spectra",
     description: "Expresse sua individualidade com a elegância sombria",
-    button: "COMPRE AGORA"
+    button: "COMPRE AGORA",
   },
 ];
 

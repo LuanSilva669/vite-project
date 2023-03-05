@@ -5,16 +5,18 @@ function Main() {
 
     return (
         <>
-                    <Container>
-                        
+            <Container>       
                 <Line />
                 <Information>
-                    
                     <Image src="/logo.png" alt="logo" />
                     <Column>
                         <Title id='Sobre-a-marca'>Sobre a marca</Title>
                         <Description2>
-                            Bats in Black é uma marca de moda alternativa que celebra a beleza sombria e misteriosa da noite. Com a imagem icônica do morcego como seu símbolo, traz um toque único e elegante onde cada peça é projetada com atenção aos detalhes e com um estilo distinto. Moda alternativa que voa alto entregando a beleza sombria das asasinhas de um morcego.
+                            Bats in Black é uma marca de moda alternativa que celebra a beleza 
+                            sombria e misteriosa da noite. Com a imagem icônica do morcego como seu símbolo, 
+                            traz um toque único e elegante onde cada peça é projetada com atenção aos detalhes e 
+                            com um estilo distinto. Moda alternativa que voa alto entregando a beleza sombria das 
+                            asinhas de um morcego.
                         </Description2>
                     </Column>
                 </Information>
@@ -61,9 +63,10 @@ function Main() {
                     <Column>
                         <Title4 id='laguna-blue'>Laguna Blue</Title4>
                         <Description1>
-                        A bota tem um solado plataforma arredondado e robusto, que adiciona altura e estilo ao visual, as asas de morcego nas laterais 
-                        da bota são o destaque do design e adicionam um toque misterioso e dramático.  
-                        A plataforma é antiderrapante e proporciona segurança e estabilidade ao caminhar. perfeita para quem quer um visual gótico e ousado.     
+                         A bota tem um solado plataforma arredondado e robusto, que adiciona altura e estilo ao visual,
+                         as asas de morcego nas laterais da bota são o destaque do design e adicionam um toque misterioso 
+                         e dramático. A plataforma é antiderrapante e proporciona segurança e estabilidade ao caminhar. 
+                         perfeita para quem quer um visual gótico e ousado.     
                      </Description1>
                     </Column>
                 </Information>
@@ -78,8 +81,8 @@ function Main() {
                         <Title5 id='spectra'>Spectra</Title5>
                         <Description>
                         A bota apresenta uma cor preta clássica com asas de morcego, 
-                        que captura a essência fantasmagórica de toda bat garota. A sola da bota é antiderrapante, 
-                        proporcionando segurança e conforto ao andar.
+                        que captura a essência fantasmagórica de toda bat garota. A 
+                        sola da bota é antiderrapante proporcionando segurança e conforto ao andar.
                      </Description>
                     </Column>
                 </Information>
