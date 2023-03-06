@@ -97,7 +97,7 @@ export const Container = styled.div`
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        background-image: url("/public/pic4.png"), linear-gradient(to bottom, #000000, #000000);
+        background-image: url("/pic4.png"), linear-gradient(to bottom, #000000, #000000);
 `
 
     export const Container1 = styled.div`
@@ -108,7 +108,7 @@ export const Container = styled.div`
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1C1C1c, #1c1c1c);
+        background-image: url("/pic4.png"), linear-gradient(to bottom, #1C1C1c, #1c1c1c);
 `
 
     export const Container2 = styled.div`
@@ -119,7 +119,7 @@ export const Container = styled.div`
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1C1C1c, #1C1C1c);
+        background-image: url("/pic4.png"), linear-gradient(to bottom, #1C1C1c, #1C1C1c);
 `
 
     export const Container3 = styled.div`
@@ -130,7 +130,7 @@ export const Container = styled.div`
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1c1c1c, #1C1C1c);
+        background-image: url("/pic4.png"), linear-gradient(to bottom, #1c1c1c, #1C1C1c);
 `
 
     export const Description1 = styled.h2`
