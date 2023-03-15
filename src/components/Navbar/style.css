@@ -6,7 +6,7 @@
         gap: 30px;
         height: 70px;
         /* Background padrão (Bota gotica) */
-        background: linear-gradient(black, #1b1919)
+        background: linear-gradient(#000000, #000000)
 }
 
 .navbar .navbar-menu {

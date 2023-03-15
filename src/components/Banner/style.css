@@ -1,6 +1,6 @@
 .banner {
     /* background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1b1919, #39014B); */
-    background-image: url("/pic4.png"), linear-gradient(to bottom, #1b1919, #39014B, #000000);
+    background-image: url("/pic4.png"), linear-gradient(to bottom, #000000, #39014B, #000000);
     gap: 0px;
     margin-left: 0px;
     /*background: linear-gradient(to bottom, #1b1919, #39014B);*/
