@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css'
-import Banner from './components/Banner'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Main from './components/Main'
+import Banner from './Banner'
+import Navbar from './Navbar'
+import Footer from './Footer'
+import Main from './Main'
 
 
 function App() {
