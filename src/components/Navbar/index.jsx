@@ -35,7 +35,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-brand">
         <img
-          src="/logo.png"
+          src="pic/logo.png"
           height="100px"
           alt="My Logo"
         />

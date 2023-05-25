@@ -8,7 +8,7 @@ function Main() {
             <Container>       
                 <Line />
                 <Information>
-                    <Image src="/logo.png" alt="logo" />
+                    <Image src="pic/logo.png" alt="logo" />
                     <Column>
                         <Title id='Sobre-a-marca'>Sobre a marca</Title>
                         <Description2>
@@ -26,7 +26,7 @@ function Main() {
             <Container>
                 <Line />
                 <Information>
-                    <Image src="/pic1.png" alt="logo" />
+                    <Image src="pic/pic1.png" alt="logo" />
                     <Column>
                         <Title2 id='Sobre-a-colecao'>Sobre a linha monster Doll</Title2>
                         <Description>
@@ -43,7 +43,7 @@ function Main() {
             <Container1>
                 <Line />
                 <Information>
-                    <Image src="/pic2.png" alt="bota1" />
+                    <Image src="pic/pic2.png" alt="bota1" />
                     <Column>
                         <Title3 id='draculaura'>Draculaura</Title3>
                         <Description>
@@ -59,7 +59,7 @@ function Main() {
             <Container2>
                 <Line />
                 <Information>
-                    <Image src="/pic3.png" alt="bota2" />
+                    <Image src="pic/pic3.png" alt="bota2" />
                     <Column>
                         <Title4 id='laguna-blue'>Laguna Blue</Title4>
                         <Description1>
@@ -76,7 +76,7 @@ function Main() {
             <Container3>
                 <Line />
                 <Information>
-                    <Image src="/pic3.png" alt="bota2" />
+                    <Image src="pic/pic3.png" alt="bota2" />
                     <Column>
                         <Title5 id='spectra'>Spectra</Title5>
                         <Description>
