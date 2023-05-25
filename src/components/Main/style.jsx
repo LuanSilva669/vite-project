@@ -43,7 +43,7 @@ export const Title4 = styled.h1`
 `
 
 export const Title5 = styled.h1`
-        font-family: Cattedrale-Demo;
+        font-family: Cattedrale-Demo-Regular;
         color: white;
         font-size: 150px;
         display: flex;
