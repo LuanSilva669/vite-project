@@ -3,3 +3,19 @@ body {
   margin: 0;
   font-family: 'roboto', sans-serif;
 }
+
+/* styles.css */
+
+@media (max-width: 767px) {
+  /* Estilos para largura de tela menor que 768 pixels */
+  .seus-elementos {
+    /* Estilos para uma coluna */
+  }
+}
+
+@media (min-width: 768px) {
+  /* Estilos para largura de tela maior ou igual a 768 pixels */
+  .seus-elementos {
+    /* Estilos para várias colunas */
+  }
+}
