@@ -1,174 +1,5 @@
 .banner {
     /* background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1b1919, #39014B); */
-    background-image: url("/pic4.png"), linear-gradient(to bottom, #000000, #39014B, #000000);
-    gap: 0px;
-    margin-left: 0px;
-    /*background: linear-gradient(to bottom, #1b1919, #39014B);*/
-    height: 35em;
-    margin-top: 0px;
-    display: flex !important;
-    flex-direction: row;
-    align-items: center;
-    
-}
-    
-
-.banner.id-1 .boot {
-    margin-top: 3em;
-    width: 50em;
-    
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    object-fit: contain;
-    margin-left: -100px;
-    margin-right:-199px;
-}
-
-.banner.id-1 .title {
-    color: white;
-    font-size: 100px;
-    width: 599px;
-    height: 140px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 140px;
-    margin-bottom: 0;
-    font-family: Berkahi blackletter;
-    margin-left: -50px;
-    margin-top: -1px;
-
-}
-
-.banner.id-1 .description {
-    font-family: cinzel;
-    color: white;
-    font-size: 25px;
-}
-
-.banner.id-1 .button {
-    align-self: flex-end;
-    padding: 0px;
-    width: 160px;
-    height: 39px;
-    background-color: #9F87FF;
-    border: #9F87FF;
-    border-radius: 8px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    font-weight: 900;
-    color: white;
-    margin-left: 400px;
-}
-
-/* banner id 2 */
-
-.banner.id-2 .boot {
-    margin-top: 28px;
-    width: 800px;
-    
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    object-fit: contain;
-    margin-left: -100px;
-    margin-right:-199px;
-
-}
-
-.banner.id-2 .title {
-    color: white;
-    font-size: 100px;
-    width: 709px;
-    height:166px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 140px;
-    margin-bottom: 0;
-    font-family: song of coronos;
-    margin-left: -10px;
-    margin-top: -0px;
-    
-}
-
-.banner.id-2 .description {
-    font-family: cinzel;
-    color: white;
-    font-size: 25px;
-    margin-bottom: 0;
-}
-
-.banner.id-2 .button {
-    padding: 0px;
-    width: 160px;
-    height: 39px;
-    background-color: #9F87FF;
-    border: #9F87FF;
-    border-radius: 8px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    font-weight: 900;
-    color: white;
-    margin-left: 530px;
-}
-/* Banner id 3 */
-.banner.id-3 .boot {
-    margin-top: 28px;
-    width: 800px;
-    
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    object-fit: contain;
-    margin-left: -100px;
-    margin-right:-199px;
-}
-
-.banner.id-3 .title {
-    color: white;
-    font-size: 100px;
-    width: 599px;
-    height: 140px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 140px;
-    margin-bottom: 60px;
-    font-family: Cattedrale-Demo;
-    margin-left: 1px;
-    margin-top: -10px;
-    
-    
-
-}
-
-.banner.id-3 .description {
-    font-family: cinzel;
-    color: white;
-    font-size: 25px;
-    height: 28px;
-    
-}
-
-.banner.id-3 .button {
-    align-self: flex-end;
-    padding: 0px;
-    width: 160px;
-    height: 39px;
-    background-color: #9F87FF;
-    border: #9F87FF;
-    border-radius: 8px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    font-weight: 900;
-    color: white;
-    margin-left: 400px;
-}
-
-.banner {
-    /* background-image: url("/public/pic4.png"), linear-gradient(to bottom, #1b1919, #39014B); */
     background-image: url("pic/pic4.png"), linear-gradient(to bottom, #000000, #39014B, #000000);
     gap: 0px;
     margin-left: 0px;
@@ -178,20 +9,17 @@
     display: flex !important;
     flex-direction: row;
     align-items: center;
-    
 }
-    
 
 .banner.id-1 .boot {
     margin-top: 3em;
     width: 50em;
-    
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     object-fit: contain;
     margin-left: 0em;
-    margin-right:-10em;
+    margin-right: -10em;
 }
 
 .banner.id-1 .title {
@@ -206,7 +34,6 @@
     font-family: Berkahi blackletter;
     margin-left: -50px;
     margin-top: -1px;
-
 }
 
 .banner.id-1 .description {
@@ -215,42 +42,24 @@
     font-size: 25px;
 }
 
-.banner.id-1 .button {
-    align-self: flex-end;
-    padding: 0px;
-    width: 160px;
-    height: 39px;
-    background-color: #9F87FF;
-    border: #9F87FF;
-    border-radius: 8px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    font-weight: 900;
-    color: white;
-    margin-left: 400px;
-}
-
 /* banner id 2 */
 
 .banner.id-2 .boot {
     margin-top: 28px;
     width: 800px;
-    
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     object-fit: contain;
     margin-left: -100px;
-    margin-right:-199px;
-
+    margin-right: -199px;
 }
 
 .banner.id-2 .title {
     color: white;
     font-size: 100px;
     width: 709px;
-    height:166px;
+    height: 166px;
     font-style: normal;
     font-weight: 700;
     font-size: 140px;
@@ -258,96 +67,60 @@
     font-family: song of coronos;
     margin-left: -10px;
     margin-top: -0px;
-    
 }
 
 .banner.id-2 .description {
     font-family: cinzel;
     color: white;
-    font-size: 25px;
-    margin-bottom: 0;
+    font-size: 2.2em;
+    height: 1em;
 }
 
-.banner.id-2 .button {
-    padding: 0px;
-    width: 160px;
-    height: 39px;
-    background-color: #9F87FF;
-    border: #9F87FF;
-    border-radius: 8px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    font-weight: 900;
-    color: white;
-    margin-left: 530px;
-}
 /* Banner id 3 */
+
 .banner.id-3 .boot {
     margin-top: 28px;
     width: 800px;
-    
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     object-fit: contain;
     margin-left: -100px;
-    margin-right:-199px;
+    margin-right: -199px;
 }
 
 .banner.id-3 .title {
     color: white;
     font-size: 100px;
-    width: 599px;
-    height: 140px;
+    width: 709px;
+    height: 166px;
     font-style: normal;
     font-weight: 700;
     font-size: 140px;
-    margin-bottom: 60px;
+    margin-bottom: 0;
+    
     font-family: Cattedrale-Demo;
-    margin-left: 1px;
-    margin-top: -10px;
-    
-    
-
+    font-size: 5em;
 }
 
 .banner.id-3 .description {
     font-family: cinzel;
     color: white;
-    font-size: 25px;
-    height: 28px;
-    
-}
-
-.banner.id-3 .button {
-    align-self: flex-end;
-    padding: 0px;
-    width: 160px;
-    height: 39px;
-    background-color: #9F87FF;
-    border: #9F87FF;
-    border-radius: 8px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    font-weight: 900;
-    color: white;
-    margin-left: 400px;
+    font-size: 2.2em;
+    height: 1em;
 }
 /* styles.css */
 
 @media (max-width: 767px) {
     /* Estilos para largura de tela menor que 768 pixels */
     .seus-elementos {
-      /* Estilos para uma coluna */
+        /* Estilos para uma coluna */
     }
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     /* Estilos para largura de tela maior ou igual a 768 pixels */
     .seus-elementos {
-      /* Estilos para várias colunas */
+        /* Estilos para várias colunas */
     }
-  }
-  
+}

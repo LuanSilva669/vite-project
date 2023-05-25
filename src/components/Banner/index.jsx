@@ -52,9 +52,7 @@ function Carrossel() {
               {banner.description}
             </h2>
             {/* botão de ação */}
-            <button className="button" href="#draculaura">
-              {banner.button}
-            </button>
+            
           </div>
         </div>
       ))}
